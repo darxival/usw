@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           classroom monstrosity
 @namespace      github.com/darxival
-@version        1.0.0
+@version        1.0.1
 @description    making gc just a bit less annoying (imo) while not changing the colors provided
 @author         darxival
 ==/UserStyle== */
@@ -76,6 +76,14 @@ also, note that I'm not a professional even though i have a tech certification, 
     .dbEQNc {
         width: 95vw;
         max-width: 95vw;
+    }
+    .Y0qupd {
+        .dbEQNc {
+            max-width: 95vw;
+        }
+    }
+    .pJAEVb .cmXCjf.WufxEd .ynt9Dc /*this was my attempt to make the archived banner max width, i can NOT figure this out.*/ {
+        --gm3-banner-content-max-width: 100%;
     }
     .qyN25 {
         height: 9rem; /*0rem removes banner, 9rem is good small, 15rem is gc default, 21 is good large, can really be anything though*/
